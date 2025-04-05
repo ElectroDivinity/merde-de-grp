@@ -1,5 +1,0 @@
-name = "merde-de-grp"
-type = "javascript"
-compatibility_date = "2024-04-05"
-
-site = { bucket = ".", entry-point = "workers-site" }
