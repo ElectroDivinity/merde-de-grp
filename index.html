@@ -75,6 +75,29 @@
             color: #ff6666;
             transition: 0.3s;
         }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #ff4747;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffa500;
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
@@ -84,6 +107,21 @@
     <section>
         <p><strong>user_12961 :</strong> El Pepe (la pute)</p>
         <p>El Pepe & El Rick = 2 drogués</p>
+
+        <!-- 15 Serveur Officiel de GrandRP -->
+        <div class="button-container">
+            <button class="btn">🇬🇧 Serveur EN 1</button>
+            <button class="btn">Serveur EN 2</button>
+            <button class="btn">Serveur EN 3</button>
+            <button class="btn">Serveur DE 1</button>
+            <button class="btn">Serveur DE 2</button>
+            <button class="btn">Serveur DE 3</button>
+            <button class="btn">Serveur DE 4</button>
+            <button class="btn">Serveur EN 1</button>
+            <button class="btn">Serveur EN 1</button>
+
+        </div>
+
     </section>
 
     <!-- Ce commentaire est volontaire : j’autorise npq à modifier le code après validation de ma part ou avec vérification de son ID GRP auprès de l’ID 2278 -->
